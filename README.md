@@ -2,4 +2,4 @@
 Azure DevOps - Remote Collaboration Project
 
 
-![alt text](C:\Users\Lynn\Pictures\Screenshots\Screenshot23.png "Screenshot23TEST_ONLY")
+![alt text](Screenshot_Navbar.png "Screenshot23TEST_ONLY")
