@@ -6,6 +6,7 @@ For the last two weeks at The Tech academy, I worked as a Remote Developer on a 
 
 Below are descriptions and screenshots (SS) of the stories I worked on during our sprint.
 
+
 ## Front-End Stories
 ### Style Changes to Navbar
 
@@ -18,16 +19,16 @@ Using the syntax found in the bootstrap-theme.css file, I applied the same class
 
 ![alt text](Screenshot_Navbar2.png "Site.css")
 
+
 ## Back-End Stories
 ### GUID Implementation
 
 Product Backlog Item 3585: 
-In the JPApplication Create view, remove the field for student_id. In the JPApplicationController, add the id of the current user to the JPstudent object before it is saved to the database.
+In the JPApplication Create view, I was instructed to remove the Student_id from the view. I completed this task with simply commenting out the code. I felt it best-practice (& especially for a mid-cycle Web Application build) to keep the pre-existing code in the event that it was found to be an integral piece of the application build at a later time, or perhaps, even a useful piece to another developer.
 
 ![alt text](Screenshot_Create.png "Create.cshtml")
 
+Next, I was instructed to add the id of the current user to the JPstudent object before it was saved to the database. After some simple, yet extremely mission-critical clarification exchanged with the Project Manager, I understood that the purpose of this story was to assign the student's id to the application before it was saved to the database--without the student knowing what their id is. This allowed me to complete the task by assigning a GUID to the Student_id object.
+
 ![alt text](Screenshot_Student_id_GUID.png "JPApplicationsController.cs")
-
-
-
 
