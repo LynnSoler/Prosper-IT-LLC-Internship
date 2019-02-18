@@ -10,8 +10,7 @@ Below are descriptions and screenshots (SS) of the stories I worked on during ou
 ### Style Changes to Navbar
 
 Product Backlog Item 3660: 
-I was referred to another website with similar Navbar styles the client wanted implemented into this Navbar. I was instructed to use the exact color #Blue backround + #Orange text as was seen on the 'donor' site.
-
+I was referred to another website with similar Navbar styles that the client wanted implemented into their Navbar. I was instructed to use the exact color #Blue Backround + #Orange Text as was seen on the 'donor' site.
 
 ![alt text](Screenshot_bootstrap-theme.png "bootstrap-theme.css")
 
