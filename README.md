@@ -10,9 +10,11 @@ Below are descriptions and screenshots (SS) of the stories I worked on during ou
 ### Style Changes to Navbar
 
 Product Backlog Item 3660: 
-I was referred to another website with similar Navbar styles that the client wanted implemented into their Navbar. I was instructed to use the exact color #Blue Backround + #Orange Text as was seen on the 'donor' site.
+I was referred to another website with similar Navbar styles that the client wanted implemented into their Navbar. I was instructed to use the exact color #Blue Backround + #Orange Text as was seen on the 'donor' site. Quick Eye Dropper Google extension gave me the color codes to apply to the Site.css file. The background color change to #Blue was then as simple as changing the color code in the Site.css file, however the text color within the Navbar constraint proved a bit more challenging to locate. I tested new class and id creations in the project's Layout.cshtml & created the appropriate styling syntax in Site.css to test if my approach would be return successful on the intended target. The #Orange text returned correctly now in the browser, but it lost the white hover effect. After further inspection in the DevTools Console, I was able to locate the arching stack controlling the Navbar text style that was lost in my new class & ID creation thru the arching Site.css file I tested previously. 
 
 ![alt text](Screenshot_bootstrap-theme.png "bootstrap-theme.css")
+
+Using the syntax found in the bootstrap-theme.css file, I applied the same class to the Site.css file + the appropriate #Orange color change that would then, arch the bootstrap file with the correct #Orange text + white inverse text property.
 
 ![alt text](Screenshot_Navbar2.png "Site.css")
 
