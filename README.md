@@ -28,7 +28,7 @@ In the JPApplication Create view, I was instructed to remove the Student_id from
 
 ![alt text](Screenshot_Create.png "Create.cshtml")
 
-Next, I was instructed to add the id of the current user to the JPstudent object before it was saved to the database. After some simple, yet extremely mission-critical clarification exchanged with the Project Manager, I understood that the purpose of this story was to assign the student's id to the application before it was saved to the database--without the student knowing what their id is. This allowed me to complete the task by assigning a GUID to the Student_id object.
+Next, I was instructed to add the id of the current user to the JPstudent object before it was saved to the database. After some simple, yet extremely mission-critical clarification exchanged with the Project Manager, I understood that the purpose of this story was to assign the student's id to the application before it was saved to the database--without the student knowing what their id is. This allowed me to complete the task by assigning a GUID to the Application object that contained the student_id property.
 
 ![alt text](Screenshot_Student_id_GUID.png "JPApplicationsController.cs")
 
